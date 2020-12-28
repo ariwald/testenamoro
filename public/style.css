@@ -165,6 +165,7 @@ a:hover {
 
 .bioContainer {
   display: flex;
+  justify-content: center;
   height: 20rem;
   width: 20rem;
   border: solid 1px white;
@@ -214,9 +215,9 @@ a:hover {
 }
 
 #findPeoplePic {
-  height: 150px;
-  width: 150px;
-  margin: 10px;
+  height: 9rem;
+  width: 9rem;
+  margin: 1rem;
   border-radius: 50%;
   border: black solid 1px;
 }
@@ -299,15 +300,3 @@ textarea {
 .fontSize {
   font-size: 20px;
 }
-
-/* || ***** MOBILE ******/
-/* @media screen and (max-width: 480px) {
-    .uploader-box {
-        position: absolute;
-        top: 130px;
-        width: 100%;
-    }
-    .uploader {
-        width: 95%;
-    }
-} */

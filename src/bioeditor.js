@@ -66,7 +66,7 @@ export default class BioEditor extends React.Component {
               value={this.state.bio}
               onChange={e => this.handleChange(e)}
             />
-            <button onClick={() => this.submit()}>Save</button>
+            <button onClick={() => this.submit()}>Salvar</button>
           </div>
         )}
         {!this.state.bio && !this.state.editorIsVisible && (

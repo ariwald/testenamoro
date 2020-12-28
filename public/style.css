@@ -87,26 +87,27 @@ button:hover {
 
 /* unvisited link */
 a:link {
-  color: white;
+  color: red;
+  margin: 0.25rem;
+  font-size: 1rem;
 }
 
 /* mouse over link */
 a:hover {
-  color: red;
+  color: orange;
 }
 
 /* from here on, second page (app)*/
 /* from here on, second page (app)*/
 
 .app {
-  background: yellow;
   min-width: 100vw;
   min-height: 100vh;
 }
 
 .profile {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   border: black solid 1px;
   background: white;

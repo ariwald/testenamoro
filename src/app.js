@@ -30,7 +30,6 @@ export default class App extends React.Component {
             <div className="profile">
               <div className="picName">
                 <img id="appLogoTop" src="/logo.jpg" alt="Rede Social" />
-                <h3>Xodo</h3>
               </div>
               <div id="links">
                 <Link to="/">My Profile</Link>

@@ -56,8 +56,10 @@ export function Chat() {
         {onlineUsers &&
           onlineUsers.map(user => (
             <div key={user.id}>
-              {user.url && <img src={user.url} alt={user.last} />}
-              {!user.url && <img src="/default.png" alt={user.last} />}
+              {user.url && <img id="chatPic" src={user.url} alt={user.last} />}
+              {!user.url && (
+                <img id="chatPic" src="/default.png" alt={user.last} />
+              )}
               <p>
                 {user.first} {user.last}
               </p>

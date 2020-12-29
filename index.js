@@ -9,7 +9,9 @@ const express = require("express");
 const app = express();
 //server and io-server must come after express
 const server = require("http").Server(app);
-const io = require("socket.io")(server, { origins: "localhost:8080" });
+const io = require("socket.io")(server, {
+  origins: "localhost:8080 testenamoro.herokuapp.com:*"
+});
 // const io = require("socket.io").listen(server);
 const bcrypt = require("./bcrypt");
 const multer = require("multer");

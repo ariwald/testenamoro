@@ -43,7 +43,7 @@ export function FindPeople() {
   return (
     <div>
       <p id="titleFindPeople">Procurar pessoas</p>
-      <p id="titleFindPeople">Novos membros</p>
+      <p id="titleFindPeople">Novos usuários</p>
       <div className="findPeopleContainer">
         {users.map(user => (
           <div id="bottomFindPeople" key={user.id}>

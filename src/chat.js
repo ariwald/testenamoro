@@ -48,11 +48,11 @@ export function Chat() {
           rows="3"
           className="chatTextArea"
           onKeyDown={KeyCheck}
-          placeholder="Insert your text here. Wait! Remember, be nice :-)"
+          placeholder="Escreva sua mensagem aqui. Sem malcriação :-)"
         ></textarea>
       </div>
       <div id="online-users">
-        <h2>Online Users</h2>
+        <h2>Usuários online</h2>
         {onlineUsers &&
           onlineUsers.map(user => (
             <div key={user.id}>

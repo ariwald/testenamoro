@@ -32,10 +32,10 @@ export default class App extends React.Component {
                 <img id="appLogoTop" src="/logo.jpg" alt="Rede Social" />
               </div>
               <div id="links">
-                <Link to="/">My Profile</Link>
-                <Link to="/findPeople">Find people</Link>
-                <Link to="/friends-wannabes">Friends</Link>
-                <Link to="/chat">Chat</Link>
+                <Link to="/">Perfil</Link>
+                <Link to="/findPeople">Pesquisar</Link>
+                <Link to="/friends-wannabes">Candidatxs</Link>
+                <Link to="/chat">Papo</Link>
 
                 <a href="/logout">Log out</a>
               </div>

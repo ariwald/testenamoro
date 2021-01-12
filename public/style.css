@@ -270,9 +270,9 @@ a:hover {
 }
 
 #chatPic {
-  height: 40px;
-  width: 40px;
-  margin: 10px;
+  height: 4rem;
+  width: 4rem;
+  margin: 1rem;
   border-radius: 50%;
   border: black solid 1px;
 }

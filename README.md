@@ -1,4 +1,4 @@
-First time using React! It was a challenge to learn so many new things, especially later on when I started using Redux and Sockets, but it was so much fun and I enjoyed drinking every drop of Club Mate over night :-)
+It was challenging to learn so many new things, especially later on when I started using Redux and Sockets, but it was so much fun and I enjoyed drinking every drop of Club Mate over night :-)
 
 https://testenamoro.herokuapp.com
 

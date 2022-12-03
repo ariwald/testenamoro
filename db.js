@@ -1,8 +1,7 @@
 //to use the database
 const spicedPg = require("spiced-pg");
 const db = spicedPg(
-  process.env.DATABASE_URL ||
-    "postgres:postgres:postgres@localhost:5432/postgresql-lively-04914"
+  process.env.DATABASE_URL || "postgres:postgres:postgres@localhost:5432/namoro"
 );
 
 //used for post/welcome/register
@@ -48,8 +47,6 @@ module.exports.selectCode = email => {
 };
 
 module.exports.updatePassword = (email, newPassword) => {
-  // console.log("email db updatePassword: ", email);
-  // console.log("password db updatePassword: ", newPassword);
   return db
     .query(
       `UPDATE users
@@ -69,7 +66,6 @@ module.exports.getAllInfoUser = id => {
       [id]
     )
     .then(({ rows }) => {
-      // console.log("rows: ", rows);
       return rows;
     });
 };
@@ -96,7 +92,6 @@ module.exports.bioUpdater = (id, bio) => {
       [id, bio]
     )
     .then(({ rows }) => {
-      // console.log("rows: ", rows);
       return rows;
     });
 };
@@ -195,7 +190,6 @@ module.exports.getAllFriendsAndWannabes = id => {
       [id]
     )
     .then(({ rows }) => {
-      // console.log("getAllFriendsAndWannabes rows: ", rows);
       return rows;
     });
 };
@@ -211,7 +205,6 @@ module.exports.getLastTenChatMessages = function() {
   ;`
     )
     .then(({ rows }) => {
-      // console.log("getLastTenChatMessages rows: ", rows);
       return rows;
     });
 };
